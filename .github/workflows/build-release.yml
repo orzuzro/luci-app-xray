@@ -19,8 +19,8 @@ jobs:
       matrix:
         include:
           - arch: arm_cortex-a9
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/mvebu/cortexa9/
-            sdk_name: -sdk-mvebu_cortexa9_
+            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/x86/64
+            sdk_name: -sdk-x86-64_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
